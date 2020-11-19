@@ -6,6 +6,7 @@ applications:
     disk_quota: 256M
     routes:
       - route: fec-stage-cms.app.cloud.gov
+      - route: fec-stage-proxy.app.cloud.gov
     services:
       - fec-creds-stage
     env:

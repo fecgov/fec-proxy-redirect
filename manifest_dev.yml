@@ -6,6 +6,7 @@ applications:
     disk_quota: 256M
     routes:
       - route: fec-dev-cms.app.cloud.gov
+      - route: fec-dev-proxy.app.cloud.gov
     stack: cflinuxfs3
     buildpacks:
       - staticfile_buildpack
