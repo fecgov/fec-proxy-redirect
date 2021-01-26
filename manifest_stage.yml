@@ -8,6 +8,9 @@ applications:
       - route: fec-stage-cms.app.cloud.gov
       - route: fec-stage-proxy.app.cloud.gov
       - route: fec-stage-eregs.app.cloud.gov
+    stack: cflinuxfs3
+    buildpacks:
+      - nginx_buildpack
     services:
       - fec-creds-stage
     env:
