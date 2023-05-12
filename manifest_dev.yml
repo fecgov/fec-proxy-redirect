@@ -8,7 +8,7 @@ applications:
       - route: fec-dev-cms.app.cloud.gov
       - route: fec-dev-proxy.app.cloud.gov
       - route: fec-dev-eregs.app.cloud.gov
-    stack: cflinuxfs3
+    stack: cflinuxfs4
     buildpacks:
       - nginx_buildpack
     services:
