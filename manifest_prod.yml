@@ -10,7 +10,7 @@ applications:
       - route: fec-prod-eregs.app.cloud.gov
     stack: cflinuxfs4
     buildpacks:
-      - nginx_buildpack
+      - https://github.com/cloudfoundry/nginx-buildpack.git
     services:
       - fec-creds-prod
     env:
